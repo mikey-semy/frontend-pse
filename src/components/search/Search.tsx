@@ -15,7 +15,7 @@ const Search: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setError(''); // Reset error state on new search
+    setError('');
     try {
       setLoading(true);
       const results = await searchQuestions(searchText);
@@ -38,10 +38,10 @@ const Search: React.FC = () => {
           value={searchText}
           onChange={handleChange}
         />
-        <Button 
-          type="submit" 
-          icon={'🔍'} 
-          title={'Поиск'}  
+        <Button
+          type="submit"
+          icon="🔍"
+          title="Поиск"
           className="button--search"
           disabled={loading}
         />
@@ -49,11 +49,9 @@ const Search: React.FC = () => {
       {loading && <p>Загрузка...</p>}
       {error && <p className="error">{error}</p>}
       <ul id="search-results">
-        {searchResults.map((item) => (
+        {searchResults?.map((item) => (
           <li key={item.id}>
-            <strong>{item.question_text}</strong> <br />
-            {/* <em>Тип: {item.question_type}</em> <br />
-            <span>Создано: {item.created_at.toLocaleString()}</span> <br /> */}
+            <strong>{item.question_text}</strong>
             <div>
               <strong>Ответы:</strong>
               <ul>
