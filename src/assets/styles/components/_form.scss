@@ -1,0 +1,58 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  gap: 10px;
+  
+}
+
+input, select, button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+  
+.input-group__label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+  
+.input-group__input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Add styles for each input field */
+
+[type="text"],
+[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 60%;
+}
+
+[type="number"] {
+  width: 60%; /* adjust width as needed */
+}
+  
+label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.form {
+  &--search {
+    flex-direction: row;
+  }
+}

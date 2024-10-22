@@ -1,0 +1,16 @@
+@use '../utils/variables';
+
+.logo {
+    font-family: 'Squada One', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: variables.$color-logo;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.logo-link {
+    display: inline-block; /* Позволяет применять стили к ссылке */
+    text-decoration: none; /* Убирает подчеркивание */
+}
+    

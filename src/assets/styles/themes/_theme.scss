@@ -1,0 +1,36 @@
+input, select, button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Стили для логотипа */
+$color-logo: #fff;
+
+/* Стили для тем оформления */
+.light-theme {
+  background-color: #fff;
+  color: #333;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+
+// Темы
+@media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      background-color: #ffffff;
+    }
+  
+    a:hover {
+      color: #747bff;
+    }
+  
+    button {
+      background-color: #f9f9f9;
+    }
+  }
+  
