@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://pse.aedb.online',
+  baseURL: 'https://workpse-backend-pse-c20039-05155f-193-233-20-69.traefik.me/',
   headers: {
     'Content-Type': 'application/json',
   },
