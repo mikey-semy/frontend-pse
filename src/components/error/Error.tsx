@@ -11,7 +11,7 @@ export default function ErrorPage(): JSX.Element {
 
     return (
         
-        <div id="error-page">
+        <div id="error-page" className="error">
             <Header />
             <h1 className="error__oops">Оопс!</h1>
             <p className="error__sorry">Извините, произошла непредвиденая ошибка :(</p>

@@ -12,7 +12,8 @@ header {
     text-align: center; // Центрирование текста
     font-size: 1.5rem; // Размер шрифта заголовка
     height: 60px;
-
+    width: 100%;
+    
   &--fixed-top {
     position: fixed;
     top: 0;
