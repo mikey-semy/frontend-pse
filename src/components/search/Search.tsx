@@ -52,12 +52,12 @@ const Search: React.FC = () => {
         {searchResults.map((item) => (
           <li key={item.id}>
             <strong>{item.question_text}</strong> <br />
-            {/* <em>Тип: {item.question_type}</em> <br /> */}
-            {/* <span>Создано: {item.created_at.toLocaleString()}</span> <br /> */}
+            {/* <em>Тип: {item.question_type}</em> <br />
+            <span>Создано: {item.created_at.toLocaleString()}</span> <br /> */}
             <div>
               <strong>Ответы:</strong>
               <ul>
-                {item.answers.map((answer, index) => (
+                {(Array.isArray(item.answers) ? item.answers : []).map((answer, index) => (
                   <li key={index}>{answer}</li>
                 ))}
               </ul>
@@ -65,7 +65,7 @@ const Search: React.FC = () => {
             <div>
               <strong>Правильные ответы:</strong>
               <ul>
-                {item.correct_answers.map((correctAnswer, index) => (
+                {(Array.isArray(item.correct_answers) ? item.correct_answers : []).map((correctAnswer, index) => (
                   <li key={index}>{correctAnswer}</li>
                 ))}
               </ul>
