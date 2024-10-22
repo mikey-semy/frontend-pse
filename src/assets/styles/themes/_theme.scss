@@ -33,4 +33,15 @@ $color-logo: #fff;
       background-color: #f9f9f9;
     }
   }
-  
+
+// Размеры экрана
+@media screen and (max-width: 768px) {
+  .nav {
+    &__item {
+      &--title {
+        font-size: 14px;
+      } 
+    }
+  }
+      
+}
