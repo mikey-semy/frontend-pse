@@ -4,8 +4,10 @@ const Main: React.FC = () => {
 
   return (
     <>
-        <footer>
+        <footer className='footer'>
+          <div className="footer-bottom">
             PSE ©{new Date().getFullYear()} Создано для удобства
+          </div>
         </footer>    
     </>
   );

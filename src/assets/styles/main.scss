@@ -37,4 +37,8 @@
 @use 'components/buttons';   // Стили для кнопок
 @use 'components/links';     // Стили для ссылок
 @use 'components/form';      // Стили для формы
+@use 'components/search';      // Стили для поиска
+@use 'components/loader';      // Стили для загрузки
+@use 'components/footer';      // Стили для подвала
+@use 'components/error-message';      // Стили для ошибки
 

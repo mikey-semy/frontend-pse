@@ -1,5 +1,5 @@
 import React from 'react';
-
+import CopyButton from '../components/buttons/CopyButton';
 const Main: React.FC = () => {
 
   return (
@@ -7,9 +7,12 @@ const Main: React.FC = () => {
         <h3>Инструкция по использованию:</h3>
         <ol>
             <li>
+              <a 
+                href="https://api.pse.aedb.online/static/scripts/bookmark.new.js" 
+                target="_blank">
                 Скопируйте код закладки:
-                {/* <button id="copyButton" className="copy-button copy-button__icon"></button> */}
-                <a href="https://api.pse.aedb.online/static/scripts/bookmark.new.js" target="_blank">Прямая ссылка</a>
+              </a>
+                <CopyButton />
             </li>
             <li>Создайте новую закладку "Новой вкладки".</li>
             <li>Нажмите на закладку правой кнопкой мыши.</li>

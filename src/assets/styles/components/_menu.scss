@@ -12,7 +12,7 @@
     }
   
     &__item {
-      list-style: none;
+      display: flex;
   
       &--link {
         margin-right: 16px;
