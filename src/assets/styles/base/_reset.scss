@@ -6,4 +6,8 @@
 body {
     margin: 0;
 }
-  
+
+input, select, button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}

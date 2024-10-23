@@ -33,7 +33,7 @@ const Search: React.FC = () => {
         <input
           type="text"
           id="search-input"
-          className="search-input"
+          className="input--search"
           placeholder="Введите текст для поиска"
           value={searchText}
           onChange={handleChange}
@@ -41,7 +41,7 @@ const Search: React.FC = () => {
         <Button
           type="submit"
           icon="🔍"
-          title="Поиск"
+          title=""
           className="button--search"
           disabled={loading}
         />
