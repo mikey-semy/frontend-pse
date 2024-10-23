@@ -9,7 +9,7 @@ const Main: React.FC = () => {
             <li>
                 Скопируйте код закладки:
                 {/* <button id="copyButton" className="copy-button copy-button__icon"></button> */}
-                <a href="https://workpse-backend-pse-c20039-05155f-193-233-20-69.traefik.me/static/scripts/bookmark.new.js" target="_blank">Прямая ссылка</a>
+                <a href="https://api.pse.aedb.online/static/scripts/bookmark.new.js" target="_blank">Прямая ссылка</a>
             </li>
             <li>Создайте новую закладку "Новой вкладки".</li>
             <li>Нажмите на закладку правой кнопкой мыши.</li>
