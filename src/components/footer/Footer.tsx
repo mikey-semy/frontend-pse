@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Main: React.FC = () => {
+const Footer: React.FC = () => {
 
   return (
     <>
@@ -13,4 +13,4 @@ const Main: React.FC = () => {
   );
 };
 
-export default Main;
+export default Footer;
