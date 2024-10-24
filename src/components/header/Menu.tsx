@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { menuItems } from '../../data/menu';
 import { Link } from 'react-router-dom';
 
-const NavigationLocal: React.FC = () => {
+const Menu: React.FC = () => {
 
     const [items] = useState(menuItems);
 
@@ -22,4 +22,4 @@ const NavigationLocal: React.FC = () => {
     );
 };
 
-export default NavigationLocal;
+export default Menu;
