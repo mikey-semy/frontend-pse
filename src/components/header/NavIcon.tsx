@@ -9,7 +9,7 @@ const NavIcon: React.FC = () => {
 
   return (
     <div className="nav__icon" onClick={handleClick}>
-      &#9776;
+      ☰
     </div>
   );
 };
