@@ -7,7 +7,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: variables.$color-header; // Цвет фона заголовка
+    background-color: variables.$color-header-bg; // Цвет фона заголовка
     color: #fff; // Цвет текста заголовка
     padding: 4px 24px; // Отступы внутри заголовка
     text-align: center; // Центрирование текста
