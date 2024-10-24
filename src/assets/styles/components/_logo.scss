@@ -1,12 +1,4 @@
-@use '../utils/variables';
-
-@font-face {
-    font-family: 'Squada One';
-    src: url('/src/assets/fonts/SquadaOne-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-
+@use '../base/variables';
 .logo {
     font-family: 'Squada One', sans-serif;
     font-size: 30px;
